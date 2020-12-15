@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_pipeline_detectron2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\unbox\;CMake Files\..\..\unbox\unbox_cpp_caffe2\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Torch\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\public\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\;CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_pipeline_detectron2">
+				<Option output="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/cpp_pipeline_detectron2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/."/>
+					<Add directory="/home/dyh/.local/include"/>
+					<Add directory="/home/dyh/workspace/unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/include"/>
+					<Add directory="/home/dyh/workspace/unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_pipeline_detectron2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_pipeline_detectron2/fast">
+				<Option output="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/cpp_pipeline_detectron2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
+					<Add directory="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/."/>
+					<Add directory="/home/dyh/.local/include"/>
+					<Add directory="/home/dyh/workspace/unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/include"/>
+					<Add directory="/home/dyh/workspace/unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_pipeline_detectron2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/message.cpp">
+			<Option target="cpp_pipeline_detectron2"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/message.h">
+			<Option target="cpp_pipeline_detectron2"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/server.cpp">
+			<Option target="cpp_pipeline_detectron2"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/server.h">
+			<Option target="cpp_pipeline_detectron2"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/test-server.cpp">
+			<Option target="cpp_pipeline_detectron2"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/public/cuda.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../unbox/unbox_cpp_caffe2/python_project/venv/lib64/python3.6/site-packages/torch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\..\unbox\unbox_cpp_caffe2\python_project\venv\lib64\python3.6\site-packages\torch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/detect_cuda_compute_capabilities.cpp">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/dyh/workspace/cpp/cpp_pipeline_detectron2/cmake-build-debug/detect_cuda_version.cc">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
